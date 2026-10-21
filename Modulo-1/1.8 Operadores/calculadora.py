@@ -18,4 +18,7 @@ else:
     elif opcao == "3":
         print("Resultado", num1 * num2)
     elif opcao == "4":
-        print("Resultado", num1 / num2)
+        if num2 == 0:
+            print("Erro: não é possível dividir por zero.")
+        else:
+            print("Resultado", num1 / num2)
