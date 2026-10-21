@@ -24,3 +24,24 @@ print(f"Soma: {somar(a, b)}")
 print(f"Subtração: {subtrair(a, b)}")
 print(f"Multiplicação: {multiplicar(a, b)}")
 print(f"Divisão: {dividir(a, b)}")
+
+# ---------------------------------------------------
+print("\nImprimindo números")
+def numeros_aleatorios():
+    nums = [3, 5, 2, 7, 9]
+
+    for i in nums:
+        print(i)
+
+numeros_aleatorios()
+# ---------------------------------------------------
+print("\nGerando palavras aleatórias")
+
+def gerador_de_palavras_aleatorias():
+    palavras = ["lorem", "ipsum", "dolor"]
+
+    for i in palavras:
+        if "l" in i:
+            print(i)
+
+gerador_de_palavras_aleatorias()
